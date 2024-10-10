@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="border-b border-b-black">
+        <div class="bg-[#22498c] p-2 flex flex-col items-center  md:flex-row md:justify-center">
+            <p class="text-white text-sm  text-center  md:grow ">Meet us at the Expo Center Karachi</p>
+
+            <p class="text-white text-sm  md:mr-16">2:00 PM, 10th Sep</p>
+        </div>
+        <div class="bg-white h-auto px-10 md:px-28 py-2 flex justify-between items-center ">
+            <!-- toggle element  -->
+            <div class="relative   lg:block xl:hidden " onclick="toggleDropdown()">
+                <button>
+                    <i class="fa fa-align-justify" aria-hidden="true"></i>
+                </button>
+
+                <!-- Dropdown menu -->
+                <div id="dropdownMenu" class="absolute z-10 hidden">
+                    <ul class="flex  flex-col text-sm text-[#393b41]  bg-white  p-4 shadow-lg ">
+                        <li class="px-2 py-2">About Us</li>
+                        <li class="px-2 py-2">Our Brand</li>
+                        <li class="px-2 py-2">Services</li>
+                        <li class="px-2 py-2">Latest News</li>
+                        <li class="px-2 py-2">Careers</li>
+                        <li>
+                            <button class="bg-[#4ac3f4] text-white px-10 flex  py-1 rounded-2xl">
+                                Partner with us
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+            <!-- logo div  -->
+            <div><img src="../dist/images/coolmax-logo 1.png" alt=""></div>
+            <div class="flex :space-x-8 ">
+
+                <!-- nav elements  -->
+                <ul class="hidden xl:flex items-center text-sm space-x-8 text-[#393b41]">
+                    <li>About Us</li>
+                    <li>Our Brand</li>
+                    <li>Services </li>
+                    <li>Latest News</li>
+                    <li>Coreers</li>
+                    <li> <button class="bg-[#4ac3f4] text-white px-5 py-1 rounded-2xl ml-4">
+                            Partner with us
+                        </button> </li>
+                </ul>
+
+                <!-- single line  -->
+
+                <div class="h-9 border-l border-[#949496] mx-4 hidden xl:block"></div>
+
+                <!-- socail icons -->
+                <div class="hidden md:flex items-center space-x-2  ">
+                    <div class="border border-1 border-blue-800 flex   py-1 px-1.5 rounded">
+                        <i class="fa-brands fa-facebook-f text-blue-800 text-xs" aria-hidden="true"></i>
+                    </div>
+                    <div class="border border-1 border-blue-800 flex   py-1 px-1.5 rounded">
+                        <i class="fa-solid fa-xmark text-blue-800  text-xs" aria-hidden="true"></i>
+                    </div>
+                    <div class="border border-1 border-blue-800 flex   py-1 px-1.5   rounded">
+                        <i class="fa-brands fa-instagram text-blue-800 text-xs" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- main section start -->
+
+    <div class="relative h-[600px] border-b-8 border-red-500">
+        <div class=" w-full  ">
+            <img src="../dist/images/main.png" class="w-full h-[600px] md:h-[600px] object-cover" alt="">
+        </div>
+        <div class="flex flex-col h-full  w-full absolute bottom-0 ">
+
+            <div class="  md:flex-grow flex h-full justify-center flex-col px-10 md:px-32 space-y-6">
+                <h1 class="text-[#706f6f] text-2xl md:text-5xl font-bold ">Proudly Manufacturing <span
+                        class="text-[#4ac3f4]">Excellence!</span></h1>
+                <p class="text-[#706f6f] font-bold text-xl">Made In Pakistan.</p>
+                <div>
+
+                    <button class="bg-[#4ac3f4] text-white px-10 py-1 rounded-3xl inline-block flex-shrink-0">
+                        Partner with us
+                    </button>
+                </div>
+
+            </div>
+
+            <div class=" flex  flex-col space-y-4 md:flex-row   justify-center md:justify-between px-10 py-2 ">
+                <!-- main bottom section right elements  -->
+                <div class="flex  items-center space-x-2  ">
+
+                    <button
+                        class="border-2 border-[#4ac3f4] shadow rounded-full flex justify-center items-center  md:h-[80px] md:w-[80px] p-4">
+                        <i class="fa fa-play text-[#4ac3f4] text-sm" aria-hidden="true"></i>
+                    </button>
+
+
+
+                    <div>
+                        <h1 class="text-[#4ac3f4]">Coolmax Group</h1>
+                        <h1 class="text-[#4ac3f4]">Introduction VIdeo</h1>
+                    </div>
+                </div>
+                <!-- main bottom section right elements  -->
+
+                <div class="flex space-x-2">
+
+                    <div><img src="../dist/images/image1.png" width="60" alt=""></div>
+                    <div><img src="../dist/images/image2.png" width="60" alt=""></div>
+                    <div><img src="../dist/images/image3.png" width="60" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main section end -->
+        <!-- 3 images sec start  -->
+        <div class="relative  h-[70px] md:h-28 lg:h-40 xl:h-52">
+            <!-- img 1 -->
+            <div class="w-full absolute"><img src="../dist/images/Group.png" class="w-full" alt=""></div>
+            <!-- img 2 -->
+            <div class="px-10 md:px-16 xl:px-32 absolute top-8 md:top-10 lg:top-16 xl:top-20 w-full"><img
+                    src="../dist/images/Layer.png" alt="" class="w-full"></div>
+            <!-- img 3 -->
+            <div
+                class="w-full flex justify-center absolute  top-[70px] md:top-28 lg:top-[164px]  xl:top-52 right-2 lg:right-4 xl:right-5">
+                <img src="../dist/images/smalllogo.png" alt="" class="w-10">
+            </div>
+        </div>
+        <!-- 3 images sec end  -->
+        <!-- map sec start -->
+        <div
+            class="h-auto bg-blue-900 bg-[url('../dist/images/Maskgroup.png')] bg-cover bg-center flex   flex-col lg:flex-row   px-10 lg:px-28 py-12 md:py-20">
+            <div class="w-full lg:w-6/12 flex flex-col space-y-10 ">
+                <h1 class="text-5xl  text-white">We Are Everywhere </h1>
+                <p class="text-white">With a strong presence across Pakistan, Coolmax Group of Companies proudly serves
+                    key regions including Karachi, Lahore, and Islamabad. Our commitment to excellence knows no
+                    boundaries as we continue to expand, delivering top-notch services and solutions to clients
+                    nationwide. Wherever you are, Coolmax is always within reach. Explore our locations below!</p>
+                <hr class="bg-white w-60 h-[2px]">
+                <p class="text-white">Explore our locations</p>
+            </div>
+            <div class=" w-full  lg:w-6/12 flex justify-center">
+                <img src="../dist/images/map.png" class="w-fulll" alt="">
+            </div>
+        </div>
+        <!-- map sec end -->
+
+        <!-- mision and vision sec start  -->
+        <div class=" px-6 md:px-14 lg:px-32 py-16">
+            <div class=" flex flex-col md:flex-row md:space-x-8 ">
+                <!-- mission sec  -->
+                <div class="shadow-lg px-7 pt-9 pb-3 border border-gray-300">
+                    <div>
+                        <div class="flex items-center space-x-3 ">
+                            <p class="text-xl text-[#4ac3f4]">Mission</p> <img src="../dist/images/Vector-blue.png"
+                                class="w-6" alt="">
+                        </div>
+                        <p class="text-gray-400 mt-2">At Coolmax Group of Companies, The real one window solution. our
+                            mission is to shape the future with innovative solutions and high-quality products that meet
+                            the evolving needs of our customers. We are dedicated to driving progress and excellence,
+                            ensuring our offerings set new standards in technology and manufacturing.</p>
+                    </div>
+                </div>
+                <!-- vision sec  -->
+                <div class="mt-10 md:mt-0 shadow-lg px-7 pt-9 pb-3 border border-gray-300">
+                    <div>
+                        <div class="flex items-center space-x-3 ">
+                            <p class="text-xl text-red-500">Vission</p> <img src="../dist/images/Vector-red.png"
+                                class="w-6" alt="">
+                        </div>
+                        <p class="text-gray-400 mt-2">At Coolmax Group of Companies, The real one window solution. our
+                            mission is to shape the future with innovative solutions and high-quality products that meet
+                            the evolving needs of our customers. We are dedicated to driving progress and excellence,
+                            ensuring our offerings set new standards in technology and manufacturing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- mision and vision sec end -->
+
+
+
+        <!-- section number 4 start  -->
+
+
+
+
+        <div class="flex flex-col items-center  h-auto bg-[url('../dist/images/image.png')] bg-cover bg-center">
+            <!-- part 1 -->
+            <div class=" md:px-20 lg:px-36 xl:px-72  pt-16 ">
+                <div class=" flex space-x-2 justify-center md:justify-normal items-center mb-5 ">
+                    <img src="../dist/images/paklogo.png" class="w-12" alt="">
+                    <h1 class="text-white text-2xl">Made In Pakistan </h1>
+                </div>
+                <div>
+
+                </div>
+                <div
+                    class="flex flex-col md:flex-row items-center md:items-stretch space-y-6 md:space-y-0 md:space-x-12">
+                    <!-- facility section -->
+                    <div
+                        class="h-auto w-11/12 md:12/12 border border-blue-400 px-6 py-4 rounded bg-white bg-opacity-10 flex flex-col space-y-2 pb-4">
+
+                        <div class="flex justify-between">
+
+                            <div class="w-8">
+
+                                <img src="../dist/images/coolmaxwhitelogo.png" class="w-full" alt="">
+                            </div>
+                            <img src="../dist/images/contact.png" class="w-7" alt="">
+                        </div>
+                        <h1 class="text-blue-300 text-xl font-semibold">Facility</h1>
+
+                        <p class="text-sm text-white">D-22 PHASE-1 (Portion-1), SITE-II
+                            Ahsanabad, karachi,karachi, karachi Central North karachi Town</p>
+                    </div>
+                    <!-- facility Area section -->
+                    <div
+                        class="h-auto w-11/12 md:12/12 border border-blue-400 px-6 py-4 rounded bg-white bg-opacity-10 flex flex-col space-y-3 ">
+
+                        <div class="flex justify-between">
+
+                            <div class="w-8">
+
+                                <img src="../dist/images/coolmaxwhitelogo.png" class="w-full" alt="">
+                            </div>
+                            <img src="../dist/images/industry.png" class="w-7" alt="">
+                        </div>
+                        <h1 class="text-blue-300 text-xl font-semibold">Facility Area</h1>
+
+                        <p class="text-xl text-white">55,0000 Sq.Ft</p>
+                    </div>
+                </div>
+            </div>
+            <!-- part 2  -->
+
+            <div class="flex  space-x-4   justify-center md:justify-end md:pr-0 lg:pr-12 xl:pr-24 pt-8 pb-6  w-full">
+                <div class="bg-white inline  p-1 rounded">
+
+                    <img src="../dist/images/image1.png" class="w-16" alt="">
+                </div>
+                <div class="bg-white inline  p-1 rounded">
+
+                    <img src="../dist/images/image2.png" class="w-16" alt="">
+                </div>
+                <div class="bg-white inline  p-1 rounded">
+
+                    <img src="../dist/images/image3.png" class="w-16" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- section number 4 end  -->
+
+        <!-- section  number 5 start -->
+
+      
+        <div class="flex md:block flex-col justify-center px-6 md:px-14 lg:px-32 py-16">
+              <!-- part 1 start -->
+            <div class="flex  justify-center md:justify-normal space-x-3">
+                <img src="../dist/images/smalllogo.png" class="w-12" alt="">
+                <h1 class="text-gray-400 text-xl">Brands</h1>
+            </div>
+            <div class="lg:w-9/12 mt-5 text-center md:text-start">
+
+                <h1 class="capitalize text-3xl font-bold text-gray-500 ">Discover the <span
+                        class="text-blue-400">magic</span> behind our
+                    <span class="text-red-600"> diverse companies
+                    </span>
+                </h1>
+            </div>
+            <div class="flex space-x-1 mt-5 justify-center md:justify-normal">
+                <img src="../dist/images/expofinal.png" class="w-20" alt="">
+                <img src="../dist/images/expologo2.png" class="w-20" alt="">
+            </div>
+            <div class="lg:w-7/12 mt-4 ">
+
+                <p class="text-gray-500 text-sm capitalize text-center md:text-start">
+                    Discover the strength and innovation driving Coolmax Group of Companies. From cutting-edge HVACR
+                    solutions to world-class pre-engineered buildings to advanced electrical systems and Industrial
+                    Fans. our diverse companies are dedicated to excellence across industries. Together, we create a
+                    synergy of expertise, delivering unparalleled value and service.
+
+                </p>
+            </div>
+            <button class="text-blue-400 border border-blue-400 rounded inline-block  items-center px-5 py-[3px] space-x-2 mt-6 mb-6 text-xs   ">
+
+                <p class="inline-block">Discover</p>
+
+                <i class="fa fa-long-arrow-right text-xs " aria-hidden="true"></i>
+
+            </button>
+              <!-- part 1 end -->
+              <!-- part 2 start -->
+               <div class="flex flex-col md:flex-row justify-center space-y-5 md:justify-between items-center md:items-end ">
+                <ul class=" w-full md:w-5/12 bg-white">
+                    <li class="border-l-4 border-blue-300 text-blue-300 bg-blue-100 bg-opacity-20 font-bold px-2 py-[6px] text-xs">Coolmax International</li>
+                    <li class="border-l-2 border-gray-100 text-gray-400   px-2 py-[6px]  text-xs">Coolmax Building Technologies</li>
+                    <li class="border-l-2 border-gray-100 text-gray-400    px-2 py-[6px]  text-xs">Coolmax electrical technologies</li>
+                    <li class="border-l-2 border-gray-100 text-gray-400  px-2 py-[6px]  text-xs">Coolmax system Air technologies</li>
+                    <li class="border-l-2 border-gray-100 text-gray-400  px-2 py-[6px]  text-xs">Coolmax Air Conditioning (PVT) LTD.</li>
+                    <li class="border-l-2 border-gray-100 text-gray-400  px-2 py-[6px]  text-xs">Iceland Air Conditioning</li>
+                </ul>
+                <div class="w-full md:w-7/12  h-full "><img src="../dist/images/machines.png" class="w-full h-full" alt=""></div>
+               </div>
+              <!-- part 2 end -->
+        </div>
+        <!-- section  number 5 end -->
+        <script>
+            // toggle function 
+            function toggleDropdown() {
+                const dropdown = document.getElementById('dropdownMenu');
+                if (dropdown.style.display === "none") {
+                    dropdown.style.display = "block";
+                } else {
+                    dropdown.style.display = "none";
+                }
+            }
+        </script>
+
+</body>
+
+</html>
